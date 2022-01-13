@@ -14,6 +14,7 @@ body {
   color: var(--white);
   background-color: var(--very-dark-blue);
   height: 100%;
+  margin-top: 10%;
   > main {
     width: 95%;
     margin: 0 auto;
@@ -24,9 +25,9 @@ body {
     align-items: center;
     > .left {
       background-color: var(--dark-desaturated-blue);
-      height: 270px;
+      height: 300px;
       width: 440px;
-      padding: 40px;
+      padding: 50px;
       padding-left: 5em;
       border-bottom-left-radius: 0.5em;
       border-top-left-radius: 0.5em;
@@ -43,6 +44,7 @@ body {
         line-height: 1.7em;
       }
       > .bottom {
+        margin-top: 4em;
         display: flex;
         gap: 2.3em;
         font-family: "Inter", sans-serif;
@@ -50,6 +52,7 @@ body {
           > header {
             color: var(--white);
             font-weight: bold;
+            font-size: 1.3em;
           }
           > p {
             color: var(--slightly-transparent-heading);
@@ -64,7 +67,7 @@ body {
   .right {
     background-image: url(images/image-header-desktop.jpg);
     width: 550px;
-    height: 350px;
+    height: 400px;
     background-color: hsla(277, 64%, 61%, 0.842);
     background-blend-mode: multiply;
     background-repeat: no-repeat;

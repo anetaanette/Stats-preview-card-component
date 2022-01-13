@@ -13,6 +13,7 @@ body {
   color: var(--white);
   background-color: var(--very-dark-blue);
   height: 100%;
+  margin-top: 10%;
 }
 
 body > main {
@@ -33,9 +34,9 @@ body > main {
 
 body > main > .left {
   background-color: var(--dark-desaturated-blue);
-  height: 270px;
+  height: 300px;
   width: 440px;
-  padding: 40px;
+  padding: 50px;
   padding-left: 5em;
   border-bottom-left-radius: 0.5em;
   border-top-left-radius: 0.5em;
@@ -56,6 +57,7 @@ body > main > .left > p {
 }
 
 body > main > .left > .bottom {
+  margin-top: 4em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,6 +68,7 @@ body > main > .left > .bottom {
 body > main > .left > .bottom > article > header {
   color: var(--white);
   font-weight: bold;
+  font-size: 1.3em;
 }
 
 body > main > .left > .bottom > article > p {
@@ -78,7 +81,7 @@ body > main > .left > .bottom > article > p {
 body .right {
   background-image: url(images/image-header-desktop.jpg);
   width: 550px;
-  height: 350px;
+  height: 400px;
   background-color: rgba(170, 92, 219, 0.842);
   background-blend-mode: multiply;
   background-repeat: no-repeat;

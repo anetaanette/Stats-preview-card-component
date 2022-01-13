@@ -17,7 +17,7 @@ body {
 }
 
 body > main {
-  width: 95%;
+  max-width: 95%;
   margin: 0 auto;
   position: relative;
   top: 50%;
@@ -34,8 +34,8 @@ body > main {
 
 body > main > .left {
   background-color: var(--dark-desaturated-blue);
-  height: 300px;
-  width: 440px;
+  max-height: 300px;
+  max-width: 440px;
   padding: 50px;
   padding-left: 5em;
   border-bottom-left-radius: 0.5em;
@@ -50,7 +50,7 @@ body > main > .left > header {
 }
 
 body > main > .left > p {
-  width: 350px;
+  max-width: 350px;
   color: var(--slightly-transparent-paragraph);
   font-family: "Inter", sans-serif;
   line-height: 1.7em;
@@ -104,4 +104,21 @@ body > footer > .attribution {
 body > footer > .attribution a {
   color: #3e52a3;
 }
+
+/* @media only screen and (max-with: 425px) {
+  body {
+    width: 90%;
+    display: flex;
+    flex-direction: column-reverse;
+    > main {
+      > .right {
+        background-image: url(images/image-header-mobile.jpg);
+      }
+    }
+    footer {
+      margin: 0 auto;
+    }
+  }
+}
+*/
 /*# sourceMappingURL=style.css.map */

@@ -108,10 +108,13 @@ body > footer > .attribution a {
 }
 
 @media only screen and (max-width: 375px) {
+  body {
+    margin: 15px auto;
+  }
   body > main {
     max-height: auto;
     max-width: 425px;
-    margin: 0 auto;
+    margin: 15px auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -126,6 +129,7 @@ body > footer > .attribution a {
     height: 100%;
     max-width: 280px;
     padding: 35px;
+    margin: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -153,6 +157,8 @@ body > footer > .attribution a {
     max-height: 250px;
     max-width: 350px;
     border-radius: 10px 10px 0 0;
+    margin: auto;
+    margin-top: 15px;
   }
   body footer {
     position: relative;

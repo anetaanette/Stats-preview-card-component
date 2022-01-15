@@ -91,10 +91,11 @@ body {
 }
 @media only screen and (max-width: 375px) {
   body {
+    margin: 15px auto;
     > main {
       max-height: auto;
       max-width: 425px;
-      margin: 0 auto;
+      margin: 15px auto;
       display: flex;
       flex-shrink: 1;
       flex-direction: column-reverse;
@@ -102,6 +103,7 @@ body {
         height: 100%;
         max-width: 280px;
         padding: 35px;
+        margin: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -117,6 +119,8 @@ body {
         max-height: 250px;
         max-width: 350px;
         border-radius: 10px 10px 0 0;
+        margin: auto;
+        margin-top: 15px;
       }
     }
     footer {

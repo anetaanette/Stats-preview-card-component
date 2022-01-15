@@ -17,13 +17,15 @@ body {
 }
 
 body > main {
-  max-width: 95%;
+  width: 95%;
   margin: 0 auto;
   position: relative;
   top: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -34,8 +36,8 @@ body > main {
 
 body > main > .left {
   background-color: var(--dark-desaturated-blue);
-  max-height: 300px;
-  max-width: 440px;
+  height: 300px;
+  width: 440px;
   padding: 50px;
   padding-left: 5em;
   border-bottom-left-radius: 0.5em;
@@ -105,20 +107,57 @@ body > footer > .attribution a {
   color: #3e52a3;
 }
 
-/* @media only screen and (max-with: 425px) {
-  body {
-    width: 90%;
+@media only screen and (max-width: 375px) {
+  body > main {
+    max-height: auto;
+    max-width: 425px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column-reverse;
-    > main {
-      > .right {
-        background-image: url(images/image-header-mobile.jpg);
-      }
-    }
-    footer {
-      margin: 0 auto;
-    }
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  body > main > .left {
+    height: 100%;
+    max-width: 280px;
+    padding: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 0 0 10px 10px;
+  }
+  body > main > .left > .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body > main > .right {
+    background-image: url(images/image-header-mobile.jpg);
+    max-height: 250px;
+    max-width: 350px;
+    border-radius: 10px 10px 0 0;
+  }
+  body footer {
+    position: relative;
+    bottom: 0;
+    left: 5%;
   }
 }
-*/
 /*# sourceMappingURL=style.css.map */

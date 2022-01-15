@@ -7,8 +7,8 @@
 
 ### Links
 
-- Solution URL: [](https://github.com/anetaanette/Stats-preview-card-component)
-- Live Site URL: [](https://anetaanette.github.io/Stats-preview-card-component/)
+- [Solution ](https://github.com/anetaanette/Stats-preview-card-component)
+- [Live Site](https://anetaanette.github.io/Stats-preview-card-component/)
 
 ### Built with
 

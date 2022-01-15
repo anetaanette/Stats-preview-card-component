@@ -7,15 +7,14 @@
 
 ### Links
 
-- Solution URL: [URL](https://github.com/anetaanette/Stats-preview-card-component)
-- Live Site URL: [Live site URL](https://anetaanette.github.io/Stats-preview-card-component/)
+- Solution URL: [](https://github.com/anetaanette/Stats-preview-card-component)
+- Live Site URL: [](https://anetaanette.github.io/Stats-preview-card-component/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
